@@ -40,6 +40,8 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
+  s.libraries = 'resolv'
+
   s.dependency 'MBProgressHUD'
   s.dependency 'LKDBHelper'
   s.dependency 'CocoaLumberjack'
